@@ -33,6 +33,52 @@ files remain in a subdirectory of your lab.
 > Do NOT submit any labs for which you are not the original author or
 > do not have the original author's express permission!
 
+### Getting the Labs ###
+
+At this time, as the labs are in a constant state of flux, the best
+way to obtain them is with `git`.  While there are graphical clients
+for `git`, this section only discusses the command-line method for
+cloning this repo.
+
+> This assumes you are using Linux or Mac OS X and already have `git`
+> installed.  Further, this assumes you are familiar with using the
+> terminal on your OS of choice.
+
+To start, open your terminal application and create a new directory
+for your `git` repos.  Skip the `mkdir` step below if you already
+have such a directory.  Then, move into that directory.  Finally,
+clone this repo into its own directory.
+
+    cd ~
+    mkdir git && cd $_
+    git clone https://github.com/JNCIE-labs/ENT.git jncie-ent-labs
+    
+Now you have a current (as of the entry of those commands) version
+of this repo.  To update the repo, use the `git pull` command, as
+below.
+
+    cd ~/git/jncie-ent-labs && git pull
+
+Daily updates are recommended.  This will save you from constantly
+checking for updates to the branch and manually pulling them.
+On Linux and OS X, you can use `cron` to automatically perform a
+specified command, series of commands, or script at specific
+intervals.  To do this, you will need to create a `crontab` entry
+and configure that entry to change to your directory for this repo
+and issue the git pull command.  From your terminal application,
+enter the following commands:
+    
+> This will open a crontab editor using your EDITOR environment
+> variable.  This guide assumes your editor is `vi` or `vim`.
+> If not, you probably know how to save and close the file.
+> `nano` will tell you at the bottom of the screen.
+
+    crontab -e
+    i
+    0 0 * * * cd ~/git/jncie-ent-labs && git pull
+    [esc]
+    :wq
+
 ### The Future ###
 
 The organizers would like to see this become a full JNCIE-ENT lab
