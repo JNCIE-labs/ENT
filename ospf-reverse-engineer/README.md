@@ -6,6 +6,19 @@ You should be able to examine the OSPF database from the two routers below and
 properly reconstruct the OSPF topology, including all links, IP addresses,
 subnet masks, and area boundaries.
 
+To successfully complete this lab, you should draw or diagram the physical
+topology of the network.  There are a total of 3 areas and 7 routers.  The
+Router ID of each router corresponds to the router number.  For example,
+R2's Router ID is 2.2.2.2; R3's Router ID is 3.3.3.3; R7's Router ID is
+7.7.7.7; and so on.  
+
+The diagram should label:
+
+ - All links with IP address and subnet mask
+ - The areas to which each link belongs
+   - Include the area number
+ - The router number of each router
+
 > There is no configuration exercise in this lab.  This lab exists solely
 > to test your knowledge of OSPF and your ability to interpret the LSDB.
 
