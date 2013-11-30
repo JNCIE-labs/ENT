@@ -1,11 +1,5 @@
 ## JNCIE-ENT Labs ##
 
-### Contribution Notice ###
-
-> Any labs submitted must be compliant with this repositories license.
-> Do NOT submit any labs for which you are not the original author or
-> do not have the original author's express permission!
-
 ### Purpose ###
 
 This repository exists as a central location for labs written by people
@@ -32,6 +26,24 @@ At your discretion, you may include a walkthrough of the solution,
 but this is not required.  You may also organize your subdirectory
 however you wish, although it's recommended that your configuration
 files remain in a subdirectory of your lab.
+
+### Contribution Notice ###
+
+> Any labs submitted must be compliant with this repositories license.
+> Do NOT submit any labs for which you are not the original author or
+> do not have the original author's express permission!
+
+### The Future ###
+
+The organizers would like to see this become a full JNCIE-ENT lab
+workbook for future candidates.  A community-driven, freely
+available workbook could significantly aid candidates on a budget
+or who might need to decide between which books are most vital.
+
+> At this time, this repo is not ready to be considered a book
+> or a replacement for any lab guide or workbook.  Although the
+> plan is to get to that point, there is currently not enough
+> material.  Please contribute if you'd like to see that change.
 
 ### The Organizers ###
 
